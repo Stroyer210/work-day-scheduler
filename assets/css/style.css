@@ -1,6 +1,9 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  background-color: #19172e;
+  /* background-color: #eeeeee;  */
+  color:white;
 }
 
 textarea {
@@ -8,7 +11,7 @@ textarea {
   border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
+  border-left: 1px solid white;
   padding: 10px;
 }
 
@@ -22,12 +25,16 @@ textarea {
 
 .row {
   border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  background-color: #19172e;
+  color: #fff;
+  border-top: 1px solid #fff;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 .past {
@@ -37,11 +44,13 @@ textarea {
 
 .present {
   background-color: #ff6961;
+  /* background: linear-gradient(#d1b412, #ff2c24); */
   color: white;
 }
 
 .future {
   background-color: #77dd77;
+  /* background: linear-gradient(#03d372, #0f88f9); */
   color: white;
 }
 
@@ -49,11 +58,36 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #929090;
   color: white;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+.colorPast {
+  background-color: #d3d3d3;
+  color:black;
+  width:400px;
+  height:38px;
+}
+.colorPresent {
+  /* background: linear-gradient(#d1b412, #ff2c24); */
+  background-color: #ff6961;
+  color:black;
+  width:400px;
+  height:38px;
+}
+.colorFuture {
+  /* background: linear-gradient(#03d372, #0f88f9); */
+  background-color: #77dd77;
+  color:black;
+  width:400px;
+  height:38px;
+}
+
+.btn-space{
+ margin-right:35px;
 }
