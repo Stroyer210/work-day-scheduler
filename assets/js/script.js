@@ -3,10 +3,10 @@
 // in the html.
 
 // var current = dayjs().hour();
-var current = 13;
+var current = 20;
 var isDark = true;
+
 $('textarea').addClass('text-dark');
-$('#colorPast').css('background','linear-gradient(#d1b412, #ff2c24);;')
 
 var button1 = $('#allHours').children().eq(0).children('button');
 var button2 = $('#allHours').children().eq(1).children('button');
@@ -46,46 +46,101 @@ $(function () {
   button1.on('click', function(event){
     event.preventDefault();
     var firstText = text1.val();
+    $('#textSaved').text('Event added at 9AM')
+    $('#textSaved').show();
+    var timerInterval = setTimeout(function () {
+      $('#textSaved').hide();
+      clearInterval(timerInterval);
+    }, 3000);
+    
     localStorage.setItem('firstText',JSON.stringify(firstText));
   })
   button2.on('click', function(event){
     event.preventDefault();
     var secondText = text2.val();
+    $('#textSaved').text('Event added at 10AM')
+    $('#textSaved').show();
+    var timerInterval = setTimeout(function () {
+      $('#textSaved').hide();
+      clearInterval(timerInterval);
+    }, 3000);
     localStorage.setItem('secondText',JSON.stringify(secondText));
   })
   button3.on('click', function(event){
     event.preventDefault();
     var thirdText = text3.val();
+    $('#textSaved').text('Event added at 11AM')
+    $('#textSaved').show();
+    var timerInterval = setTimeout(function () {
+      $('#textSaved').hide();
+      clearInterval(timerInterval);
+    }, 3000);
     localStorage.setItem('thirdText',JSON.stringify(thirdText));
   })
   button4.on('click', function(event){
     event.preventDefault();
     var fourthText = text4.val();
+    $('#textSaved').text('Event added at 12PM')
+    $('#textSaved').show();
+    var timerInterval = setTimeout(function () {
+      $('#textSaved').hide();
+      clearInterval(timerInterval);
+    }, 3000);
     localStorage.setItem('fourthText',JSON.stringify(fourthText));
   })
   button5.on('click', function(event){
     event.preventDefault();
     var fifthText = text5.val();
+    $('#textSaved').text('Event added at 1PM')
+    $('#textSaved').show();
+    var timerInterval = setTimeout(function () {
+      $('#textSaved').hide();
+      clearInterval(timerInterval);
+    }, 3000);
     localStorage.setItem('fifthText',JSON.stringify(fifthText));
   })
   button6.on('click', function(event){
     event.preventDefault();
     var sixthText = text6.val();
+    $('#textSaved').text('Event added at 2PM')
+    $('#textSaved').show();
+    var timerInterval = setTimeout(function () {
+      $('#textSaved').hide();
+      clearInterval(timerInterval);
+    }, 3000);
     localStorage.setItem('sixthText',JSON.stringify(sixthText));
   })
   button7.on('click', function(event){
     event.preventDefault();
     var seventhText = text7.val();
+    $('#textSaved').text('Event added at 3PM')
+    $('#textSaved').show();
+    var timerInterval = setTimeout(function () {
+      $('#textSaved').hide();
+      clearInterval(timerInterval);
+    }, 3000);
     localStorage.setItem('seventhText',JSON.stringify(seventhText));
   })
   button8.on('click', function(event){
     event.preventDefault();
     var eighthText = text8.val();
+    $('#textSaved').text('Event added at 4PM')
+    $('#textSaved').show();
+    var timerInterval = setTimeout(function () {
+      $('#textSaved').hide();
+      clearInterval(timerInterval);
+    }, 3000);
     localStorage.setItem('eighthText',JSON.stringify(eighthText));
   })
   button9.on('click', function(event){
     event.preventDefault();
     var ninthText = text9.val();
+    $('#textSaved').text('Event added at 5PM')
+    $('#textSaved').show();
+    var timerInterval = setTimeout(function () {
+      $('#textSaved').hide();
+      clearInterval(timerInterval);
+    }, 3000);
     localStorage.setItem('ninthText',JSON.stringify(ninthText));
   })
   //
