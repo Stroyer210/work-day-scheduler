@@ -71,21 +71,24 @@ textarea {
   background-color: #d3d3d3;
   color:black;
   width:400px;
-  height:38px;
+  padding-top:2px;
+  height:32px;
 }
 .colorPresent {
   /* background: linear-gradient(#d1b412, #ff2c24); */
   background-color: #ff6961;
   color:black;
   width:400px;
-  height:38px;
+  padding-top:2px;
+  height:32px;
 }
 .colorFuture {
   /* background: linear-gradient(#03d372, #0f88f9); */
   background-color: #77dd77;
   color:black;
   width:400px;
-  height:38px;
+  padding-top:2px;
+  height:32px;
 }
 
 .btn-space{
