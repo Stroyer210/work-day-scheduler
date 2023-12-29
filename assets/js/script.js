@@ -1,5 +1,4 @@
 var current = dayjs().hour();
-// var current = 5;
 
 $("textarea").addClass("text-dark");
 
